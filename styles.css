@@ -8,7 +8,6 @@
 
 body {
   background-color: #8d99ae;
-  margin: 10vw 20vw;
 }
 
 section > p,
@@ -18,17 +17,29 @@ pre {
   text-align: center;
 }
 
-section,
-#navbar {
+section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 4vh;
+  margin: 8vh 20vw;
 }
 
 header {
   color: var(--header-color);
   font-size: 8vh;
   font-weight: bold;
+}
+
+a {
+  color: black;
+  padding: 4px;
+}
+
+/* The media query is not really useful. I just use it o pass the fcc unit test*/
+@media (max-width: 1000px) {
+  body {
+    background-color: #edf2f4;
+  }
 }
