@@ -1,0 +1,34 @@
+:root {
+  --header-color: #ef233c;
+}
+
+* {
+  font-family: "Hack", sans-serif;
+}
+
+body {
+  background-color: #8d99ae;
+  margin: 10vw 20vw;
+}
+
+section > p,
+ul,
+li,
+pre {
+  text-align: center;
+}
+
+section,
+#navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4vh;
+}
+
+header {
+  color: var(--header-color);
+  font-size: 8vh;
+  font-weight: bold;
+}
