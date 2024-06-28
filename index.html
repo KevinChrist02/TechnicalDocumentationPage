@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Astro</title>
+  </head>
+  <body>
+    <main id="main-doc">
+      <!--Navbart-->
+      <nav id="navbar">
+        <header>Navbar</header>
+        <a href="#astro" class="nav-link">Astro</a>
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#project" class="nav-link">Project</a>
+        <a href="#markdown" class="nav-link">Markdown</a>
+        <a href="#educational" class="nav-link">Educational</a>
+      </nav>
+
+      <!--Introduction-->
+      <section class="main-section" id="astro">
+        <header id="why_astro">Astro</header>
+        <p>
+          Astro is the web framework for building content-driven websites like
+          blogs, marketing, and e-commerce. Astro is best-known for pioneering a
+          new frontend architecture to reduce JavaScript overhead and complexity
+          compared to other frameworks. If you need a website that loads fast
+          and has great SEO, then Astro is for you.
+        </p>
+      </section>
+
+      <!--Features in Astro-->
+      <section class="main-section" id="features">
+        <header id="features">features</header>
+        <p>
+          Astro is an all-in-one web framework. It includes everything you need
+          to create a website, built-in. There are also hundreds of different
+          integrations and API hooks available to customize a project to your
+          exact use case and needs.
+        </p>
+        <p>Some highlights include:</p>
+        <ul>
+          <li>
+            Islands: A component-based web architecture optimized for
+            content-driven websites.
+          </li>
+          <li>
+            UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit, HTMX,
+            web components, and more.
+          </li>
+          <li>
+            Server-first: Moves expensive rendering off of your visitors\'
+            devices.
+          </li>
+          <li>
+            Zero JS, by default: Less client-side JavaScript to slow your site
+            down.
+          </li>
+          <li>
+            Content collections: Organize, validate, and provide TypeScript
+            type-safety for your Markdown content.
+          </li>
+          <li>
+            Customizable: Tailwind, MDX, and hundreds of integrations to choose
+            from.
+          </li>
+        </ul>
+      </section>
+
+      <!--Starting a new Project with the wizard-->
+      <section class="main-section" id="project">
+        <header id="Start_a_project">project</header>
+        <p>
+          Run the following command in your terminal to start our handy install
+          wizard:
+        </p>
+        <pre data-language="shell">
+           <code># create a new project with npm</code>
+           <code>npm create astro@latest</code>
+        </pre>
+        <pre data-language="shell">
+            <code># create a new project with an official example</code>
+            <code>npm create astro@latest -- --template /example-name </code>
+            <code># create a new project based on a GitHub repository’s main branch</code>
+            <code>npm create astro@latest -- --template github-username/github-repo</code>
+        </pre>
+      </section>
+
+      <section class="main-section" id="markdown">
+        <header id="markdown_mdx">Markdown</header>
+        <p>
+          Markdown is commonly used to author text-heavy content like blog posts
+          and documentation. Astro includes built-in support for standard
+          Markdown files that can also include frontmatter YAML to define custom
+          metadata such as a title, description, and tags.
+        </p>
+        <p>
+          With the @astrojs/mdx integration installed, Astro also supports MDX
+          (.mdx) files which bring added features like support for JavaScript
+          expressions and components in your Markdown content.
+        </p>
+        <p>Use either or both types of files to write your Markdown content!</p>
+      </section>
+
+      <section class="main-section" id="educational">
+        <header id="educational_content">Educational</header>
+        <p>
+          There is so much more out there that can help you learn and build with
+          Astro! Here is some educational content produced and maintained by the
+          Astro community.
+        </p>
+
+        <p>
+          All links are external, and may be based on earlier versions of Astro.
+          Be sure to check the date on any community content, and adapt to your
+          project accordingly.
+        </p>
+
+        <p>
+          For more Astro educational content, check out the Astro Blog or sign
+          up for the official Astro newsletter where we recap the best community
+          content of each month.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
